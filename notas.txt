@@ -1,0 +1,1 @@
+en addProducts redirigir al mismo formulario y imprimir el id del producto agregado
