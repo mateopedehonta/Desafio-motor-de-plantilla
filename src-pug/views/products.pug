@@ -1,0 +1,11 @@
+extends layouts/index
+
+block index
+    h1 Productos
+    .container
+        each producto in productos
+            .box
+                h2 #{producto.title}
+                p Precio:#{producto.price}
+                img&attributes({src:producto.url})
+    a(href='/') Agregar productos
